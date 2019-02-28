@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Engenharia de Software - Aula03</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<p>
+						Universidade do Estado de Mato Grosso <br />
+						<em>Campus</em> Cáceres <br />
+						Faculdade de Ciências Exatas <br/>
+						Bacharelado em Ciência da Computação
+					</p>
+					<br />
+					<h3>Engenharia de Software I</h3>
+					<h4>Capítulo 2 - Engenharia de Software</h4>
+					<br />
+					<p>
+						Leonardo Luan Martins da Silva <br />
+						28 de fevereiro de 2019
+					</p>
+				</section>
+
+				<section style="text-align: left;font-size: 90%">
+					<ul>
+						<li style='margin-bottom: 40px'><strong>Para construir um software que enfrente os desafios do nosso século:</strong></li>
+
+						<ul>
+							<li style='margin-bottom: 40px'>Devemos entender o problema antes da solução ser desenvolvida.</li>
+							<li class="fragment fade-in" style='margin-bottom: 40px'>Devemos encarar o design como uma atividade fundamental</li>
+							<li class="fragment fade-in" style='margin-bottom: 40px'>Reconhecer que empresas e pessoas confiam recursos e suas vidas em softwares, e por isso devemos construir software de qualidade</li>
+							<li class="fragment fade-in" style='margin-bottom: 40px'>Entender que prioridades e interesses mudam, e softwares devem ser capazes de mudar</li>
+						</ul>
+					</ul>
+				</section>
+
+				<section style="text-align: center">
+					<p>Essas realidades nos levam a uma conclusão:<br/><span style='text-decoration: underline'>software deve ser projetado.</span></p>
+				</section>
+
+				<section>
+					<p>
+						A <strong>Engenharia de Software</strong> aborda o <span style='text-decoration: underline'>projeto</span>, o <span style='text-decoration: underline'>desenvolvimento</span>, a <span style='text-decoration: underline'>implantação</span> e a <span style='text-decoration: underline'>manutenção</span> de software.
+					</p>
+				</section>
+
+				<section style="text-align: left;font-size: 90%">
+					<h3>Engenharia é uma disciplina dividida em camadas:</h3>
+					<br />
+					<ul>
+						<li style='margin-bottom: 40px'>O alicerce é a <strong>qualidade</strong></li>
+						<li class="fragment fade-in" style='margin-bottom: 40px'>O fundamento são os <strong>processos</strong></li>
+						<li class="fragment fade-in" style='margin-bottom: 40px'>A execução é definida pelos <strong>métodos</strong></li>
+						<li class="fragment fade-in" style='margin-bottom: 40px'>As <strong>ferramentas</strong> fornecem suporte na execução dos métodos e processos</li>
+					</ul>
+				</section>
+
+				<section style="text-align: left;font-size: 90%">
+					<h4>O Processo de Software: é uma coleção de atividades, ações, e tarefas que são realizadas quando algum produto precisa ser criado.</h4>
+					<section></section>
+					<section>
+						<ul>
+							<li style='margin-bottom: 40px'>Uma <span style='text-decoration: underline'>atividade</span> é um esforço para alcançar um objetivo</li>
+							<ul>
+								<li>Exemplo: comunicação com stakeholders</li>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<ul>
+							<li style='margin-bottom: 40px'>Uma <span style='text-decoration: underline'>ação</span> engloba um conjunto de tarefas para produzir um produto.</li>
+							<ul>
+								<li>Exemplo: design arquitetural</li>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<ul>
+							<li style='margin-bottom: 40px'>Uma <span style='text-decoration: underline'>tarefa</span> tem foco em um pequeno objetivo que adiciona algum valor ao produto.</li>
+							<ul>
+								<li>Exemplo: teste unitário</li>
+							</ul>
+						</ul>
+					</section>
+				</section>
+
+				<section style="text-align: left;font-size: 90%">
+					<h3 style="text-align: center">Framework de Processo:</h3>
+					<h6>Define os fundamentos para completar o processo.</h6>
+
+					<p style='margin-top: 5px'>Um framework genérico define <strong>5 atividades</strong> básicas:</p>
+
+					<section></section>
+					<section>
+						<ul>
+							<li><strong>Comunicação</strong>: Antes de qualquer atividade técnica, é necessário entender as intenções e objetivos dos stakeholders.</li>
+						</ul>
+					</section>
+					<section>
+						<ul>
+							<li><strong>Planejamento</strong>: Toda jornada complexa pode ser simplificada se existe um mapa. No planejamento são definidos os produtos, os riscos, os recursos e a escala de trabalho.</li>
+						</ul>
+					</section>
+					<section>
+						<ul>
+							<li><strong>Modelagem</strong>: Todo produto precisa de um esboço inicial. Na engenharia de software, os modelos são representações do software ajudam a compreender o que deve ser feito.</li>
+						</ul>
+					</section>
+					<section>
+						<ul>
+							<li><strong>Construção</strong>: O que foi modelado é construído e testado.</li>
+						</ul>
+					</section>
+					<section>
+						<ul>
+							<li><strong>Implantação</strong>: O software é entregue ao cliente.</li>
+						</ul>
+					</section>
+				</section>
+
+				<section style="text-align: center; font-size: 90%">
+					<h2>Atividades</h2>
+					<br />
+					<h4>Próxima aula...</h4>
+					<br />
+					<h4>Obrigado! Até às 11h00</h4>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				mouseWheel: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+			Reveal.configure({ slideNumber: 'c/t' });
+		</script>
+	</body>
+</html>
